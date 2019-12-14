@@ -1,0 +1,33 @@
+cmd-proxy service is a proxy service which forwards calls to cmd-service for processing the request.
+
+The input for the cmd-proxy service is defined using a Job.
+The result of the Job execution is provided by JobResult.
+
+Job is defined in Json notation as :
+'{
+  "task" : "<task name>", 
+  "payload" : "<payload used by the task>"
+}'
+
+The result of executing the Job is defined in Json as follows :
+'{
+  "task" : "<task name>", 
+  "payload" : "<payload used by the task>"
+  "result" : "result value"
+}'
+
+Business rules : 
+Currently only the following are supported
+task :  add | multiply
+payload : two numbers which are comma separated.
+
+Example of Job : 
+'{"task":"add", "payload":"1.1,2.1"}'
+
+The Output of the above job on successful execution is :
+'{"task":"add", "payload":"1.1,2.1", "result" : "3.2"}'
+
+
+
+Link to the API Documentation using Postman tool :
+https://www.getpostman.com/collections/294edc31f417bde0e3cf

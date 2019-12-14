@@ -1,0 +1,21 @@
+$ curl -w "\n" -d '{"task":"add", "payload":"1,2"}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/add
+{"task":"add","payload":"1,2","result":"3"}
+$ curl -w "\n" -d '{"task":"add", "payload":"1.1,2.1"}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/add
+{"task":"add","payload":"1.1,2.1","result":"3.2"}
+$ curl -w "\n" -d '{"task":"add", "payload":"-1.1,2.1"}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/add
+{"task":"add","payload":"-1.1,2.1","result":"1.0"}
+$ curl -w "\n" -d '{"task":"add", "payload":"-1.1,-2.1"}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/add
+{"task":"add","payload":"-1.1,-2.1","result":"-3.2"}
+
+$ curl -w "\n" -d '{"task":"multiply", "payload":"2,3"}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/
+{"task":"multiply","payload":"2,3","result":"6"}
+
+$ curl -w "\n" -d '{"task":"add", "payload":""}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/add
+{"task":"add","payload":"","result":"Error : payload parameters should contain 2 numbers. for eg: '1,2'"}
+
+$ curl -w "\n" -d '{"task":"", "payload":"-1.1,-2.1"}' -H "Content-Type: application/json" -X POST http://localhost:9000/proxy/rest-cmd/add
+{"task":"","payload":"-1.1,-2.1","result":"Error : unsupported task"}
+
+
+
+

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--Created by yFiles for HTML 2.2.0.2-->
+<graphml xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml.html/2.0/ygraphml.xsd " xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:demostyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoStyle/1.0" xmlns:bpmn="http://www.yworks.com/xml/yfiles-bpmn/2.0" xmlns:demotablestyle="http://www.yworks.com/yFilesHTML/demos/FlatDemoTableStyle/1.0" xmlns:uml="http://www.yworks.com/yFilesHTML/demos/UMLDemoStyle/1.0" xmlns:compat="http://www.yworks.com/xml/yfiles-compat-arrows/1.0" xmlns:GraphvizNodeStyle="http://www.yworks.com/yFilesHTML/graphviz-node-style/1.0" xmlns:VuejsNodeStyle="http://www.yworks.com/demos/yfiles-vuejs-node-style/1.0" xmlns:y="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:yjs="http://www.yworks.com/xml/yfiles-for-html/2.0/xaml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<key id="d0" for="node" attr.type="boolean" attr.name="Expanded" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/Expanded">
+		<default>true</default>
+	</key>
+	<key id="d1" for="node" attr.type="string" attr.name="url"/>
+	<key id="d2" for="node" attr.type="string" attr.name="description"/>
+	<key id="d3" for="node" attr.name="NodeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeLabels"/>
+	<key id="d4" for="node" attr.name="NodeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeGeometry"/>
+	<key id="d5" for="all" attr.name="UserTags" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/UserTags"/>
+	<key id="d6" for="node" attr.name="NodeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/NodeStyle"/>
+	<key id="d7" for="node" attr.name="NodeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/NodeViewState"/>
+	<key id="d8" for="edge" attr.type="string" attr.name="url"/>
+	<key id="d9" for="edge" attr.type="string" attr.name="description"/>
+	<key id="d10" for="edge" attr.name="EdgeLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeLabels"/>
+	<key id="d11" for="edge" attr.name="EdgeGeometry" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeGeometry"/>
+	<key id="d12" for="edge" attr.name="EdgeStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/EdgeStyle"/>
+	<key id="d13" for="edge" attr.name="EdgeViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/EdgeViewState"/>
+	<key id="d14" for="port" attr.name="PortLabels" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLabels"/>
+	<key id="d15" for="port" attr.name="PortLocationParameter" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortLocationParameter">
+		<default>
+			<x:Static Member="y:FreeNodePortLocationModel.NodeCenterAnchored"/>
+		</default>
+	</key>
+	<key id="d16" for="port" attr.name="PortStyle" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/PortStyle">
+		<default>
+			<x:Static Member="y:VoidPortStyle.Instance"/>
+		</default>
+	</key>
+	<key id="d17" for="port" attr.name="PortViewState" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/folding/1.1/PortViewState"/>
+	<key id="d18" attr.name="SharedData" y:attr.uri="http://www.yworks.com/xml/yfiles-common/2.0/SharedData"/>
+	<data key="d18">
+		<y:SharedData>
+			<yjs:DashStyle x:Key="1" dashes="0 4" offset="2"/>
+			<y:RatioAnchoredLabelModelParameter x:Key="2" LayoutOffset="-5.304687500000028,11.203125"/>
+			<yjs:DefaultLabelStyle x:Key="3" horizontalTextAlignment="CENTER" autoFlip="false" textFill="#FF000000">
+				<yjs:DefaultLabelStyle.font>
+					<yjs:Font fontSize="12" fontFamily="'Courier New'"/>
+				</yjs:DefaultLabelStyle.font>
+			</yjs:DefaultLabelStyle>
+			<yjs:ShapeNodeStyle x:Key="4" stroke="{x:Null}" fill="{x:Null}" shape="ROUND_RECTANGLE"/>
+			<yjs:SolidColorFill x:Key="5" color="Black"/>
+			<yjs:SolidColorFill x:Key="6" color="Black"/>
+			<yjs:Arrow x:Key="7" type="NONE"/>
+			<yjs:SolidColorFill x:Key="8" color="Black"/>
+		</y:SharedData>
+	</data>
+	<graph id="G" edgedefault="directed">
+		<data key="d5">
+			<y:Json>{"version":"2.0.0","theme":{"name":"light","version":"1.0.0"}}</y:Json>
+		</data>
+		<node id="n0">
+			<data key="d1"><![CDATA[]]></data>
+			<data key="d2"><![CDATA[]]></data>
+			<data key="d3">
+				<x:List>
+					<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.North}">
+						<y:Label.Text><![CDATA[Command Service]]></y:Label.Text>
+						<y:Label.Style>
+							<yjs:DefaultLabelStyle horizontalTextAlignment="RIGHT" autoFlip="false" textFill="#FF000000" textSize="15">
+								<yjs:DefaultLabelStyle.font>
+									<yjs:Font fontSize="15" fontFamily="'Dialog'"/>
+								</yjs:DefaultLabelStyle.font>
+							</yjs:DefaultLabelStyle>
+						</y:Label.Style>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d4">
+				<y:RectD X="-121.5" Y="34.5" Width="652.5" Height="292.666015625"/>
+			</data>
+			<data key="d6">
+				<yjs:CollapsibleNodeStyleDecorator>
+					<yjs:ShapeNodeStyle fill="#80CAECFF" shape="ROUND_RECTANGLE">
+						<yjs:ShapeNodeStyle.stroke>
+							<yjs:Stroke fill="#FF666699" lineCap="ROUND" dashStyle="{y:GraphMLReference 1}" miterLimit="1.45"/>
+						</yjs:ShapeNodeStyle.stroke>
+					</yjs:ShapeNodeStyle>
+				</yjs:CollapsibleNodeStyleDecorator>
+			</data>
+			<data key="d7">
+				<y:ViewState>
+					<y:FolderNodeState x:Key="c|view" Layout="-75.5,232.5,658,248">
+						<y:FolderNodeState.Labels>
+							<y:Label LayoutParameter="{x:Static y:InteriorStretchLabelModel.North}">
+								<y:Label.Text><![CDATA[Lagom gRPC Example]]></y:Label.Text>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle horizontalTextAlignment="RIGHT" autoFlip="false" textFill="#FF000000" textSize="15">
+										<yjs:DefaultLabelStyle.font>
+											<yjs:Font fontSize="15" fontFamily="'Dialog'"/>
+										</yjs:DefaultLabelStyle.font>
+									</yjs:DefaultLabelStyle>
+								</y:Label.Style>
+							</y:Label>
+						</y:FolderNodeState.Labels>
+						<y:FolderNodeState.Style>
+							<yjs:CollapsibleNodeStyleDecorator>
+								<yjs:ShapeNodeStyle fill="#80CAECFF" shape="ROUND_RECTANGLE">
+									<yjs:ShapeNodeStyle.stroke>
+										<yjs:Stroke fill="#FF666699" lineCap="ROUND" dashStyle="{y:GraphMLReference 1}" miterLimit="1.45"/>
+									</yjs:ShapeNodeStyle.stroke>
+								</yjs:ShapeNodeStyle>
+							</yjs:CollapsibleNodeStyleDecorator>
+						</y:FolderNodeState.Style>
+					</y:FolderNodeState>
+				</y:ViewState>
+			</data>
+			<graph id="n0:" edgedefault="directed">
+				<node id="n0::n0">
+					<data key="d3">
+						<x:List>
+							<y:Label>
+								<y:Label.Text><![CDATA[Service Gateway]]></y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:RatioAnchoredLabelModelParameter LayoutOffset="11.0087890625,28.93359375"/>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle horizontalTextAlignment="CENTER" autoFlip="false" textFill="#FF000000">
+										<yjs:DefaultLabelStyle.font>
+											<yjs:Font fontSize="12" fontFamily="'Dialog'"/>
+										</yjs:DefaultLabelStyle.font>
+									</yjs:DefaultLabelStyle>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="26.5" Y="140.666015625" Width="115" Height="72"/>
+					</data>
+					<data key="d6">
+						<yjs:ShapeNodeStyle fill="#FFCCFFFF" shape="ROUND_RECTANGLE">
+							<yjs:ShapeNodeStyle.stroke>
+								<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+							</yjs:ShapeNodeStyle.stroke>
+						</yjs:ShapeNodeStyle>
+					</data>
+					<port name="p0"/>
+					<port name="p1"/>
+				</node>
+				<node id="n0::n1">
+					<data key="d2"><![CDATA[]]></data>
+					<data key="d3">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>curl</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:RatioAnchoredLabelModelParameter LayoutOffset="9.09765625,11.203125"/>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle horizontalTextAlignment="CENTER" autoFlip="false" textFill="#FF000000">
+										<yjs:DefaultLabelStyle.font>
+											<yjs:Font fontSize="12" fontFamily="'Courier New'"/>
+										</yjs:DefaultLabelStyle.font>
+									</yjs:DefaultLabelStyle>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="-116.5" Y="158.666015625" Width="47" Height="36"/>
+					</data>
+					<data key="d6">
+						<yjs:ShapeNodeStyle stroke="{x:Null}" fill="{x:Null}" shape="ROUND_RECTANGLE"/>
+					</data>
+					<port name="p0"/>
+				</node>
+				<node id="n0::n2">
+					<data key="d2"><![CDATA[]]></data>
+					<data key="d3">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>cmd</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:RatioAnchoredLabelModelParameter LayoutOffset="43.279296875,28.93359375"/>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle horizontalTextAlignment="CENTER" autoFlip="false" textFill="#FF000000">
+										<yjs:DefaultLabelStyle.font>
+											<yjs:Font fontSize="12" fontFamily="'Dialog'"/>
+										</yjs:DefaultLabelStyle.font>
+									</yjs:DefaultLabelStyle>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="387" Y="61.166015625" Width="115" Height="72"/>
+					</data>
+					<data key="d6">
+						<yjs:ShapeNodeStyle fill="#FFFFCC00" shape="ROUND_RECTANGLE">
+							<yjs:ShapeNodeStyle.stroke>
+								<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+							</yjs:ShapeNodeStyle.stroke>
+						</yjs:ShapeNodeStyle>
+					</data>
+					<port name="p0"/>
+				</node>
+				<node id="n0::n3">
+					<data key="d2"><![CDATA[]]></data>
+					<data key="d3">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>cmd-proxy</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:RatioAnchoredLabelModelParameter LayoutOffset="23.076171875,28.93359375"/>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle horizontalTextAlignment="CENTER" autoFlip="false" textFill="#FF000000">
+										<yjs:DefaultLabelStyle.font>
+											<yjs:Font fontSize="12" fontFamily="'Dialog'"/>
+										</yjs:DefaultLabelStyle.font>
+									</yjs:DefaultLabelStyle>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="237.5" Y="140.666015625" Width="115" Height="72"/>
+					</data>
+					<data key="d6">
+						<yjs:ShapeNodeStyle fill="#FFFFCC00" shape="ROUND_RECTANGLE">
+							<yjs:ShapeNodeStyle.stroke>
+								<yjs:Stroke fill="#FF000000" miterLimit="1.45"/>
+							</yjs:ShapeNodeStyle.stroke>
+						</yjs:ShapeNodeStyle>
+					</data>
+					<port name="p0"/>
+					<port name="p1"/>
+				</node>
+				<node id="n0::n4">
+					<data key="d2"><![CDATA[]]></data>
+					<data key="d3">
+						<x:List>
+							<y:Label LayoutParameter="{y:GraphMLReference 2}" Style="{y:GraphMLReference 3}">
+								<y:Label.Text>HTTP/1.1</y:Label.Text>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="237.75000000000003" Y="140.666015625" Width="47" Height="36"/>
+					</data>
+					<data key="d6">
+						<y:GraphMLReference ResourceKey="4"/>
+					</data>
+				</node>
+				<node id="n0::n5">
+					<data key="d2"><![CDATA[]]></data>
+					<data key="d3">
+						<x:List>
+							<y:Label>
+								<y:Label.Text>:9000</y:Label.Text>
+								<y:Label.LayoutParameter>
+									<y:RatioAnchoredLabelModelParameter LayoutOffset="4.994140625,-25.462890625"/>
+								</y:Label.LayoutParameter>
+								<y:Label.Style>
+									<yjs:DefaultLabelStyle horizontalTextAlignment="CENTER" autoFlip="false" textFill="#FF000000">
+										<yjs:DefaultLabelStyle.font>
+											<yjs:Font fontSize="12" fontFamily="'Courier New'"/>
+										</yjs:DefaultLabelStyle.font>
+									</yjs:DefaultLabelStyle>
+								</y:Label.Style>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="-20.5" Y="212.666015625" Width="47" Height="36"/>
+					</data>
+					<data key="d6">
+						<yjs:ShapeNodeStyle stroke="{x:Null}" fill="{x:Null}" shape="ROUND_RECTANGLE"/>
+					</data>
+				</node>
+				<node id="n0::n6">
+					<data key="d2"><![CDATA[]]></data>
+					<data key="d3">
+						<x:List>
+							<y:Label LayoutParameter="{y:GraphMLReference 2}" Style="{y:GraphMLReference 3}">
+								<y:Label.Text>HTTP/1.1</y:Label.Text>
+							</y:Label>
+						</x:List>
+					</data>
+					<data key="d4">
+						<y:RectD X="-38.74999999999997" Y="140.666015625" Width="47" Height="36"/>
+					</data>
+					<data key="d6">
+						<y:GraphMLReference ResourceKey="4"/>
+					</data>
+				</node>
+				<edge id="n0::e0" source="n0::n0" target="n0::n3" sourceport="p0" targetport="p0">
+					<data key="d9"><![CDATA[]]></data>
+					<data key="d11">
+						<x:List>
+							<y:Bend Location="143.25,176.666015625"/>
+							<y:Bend Location="213.25,176.666015625"/>
+						</x:List>
+					</data>
+					<data key="d12">
+						<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 7}">
+							<yjs:PolylineEdgeStyle.stroke>
+								<yjs:Stroke fill="{y:GraphMLReference 5}" miterLimit="1.45"/>
+							</yjs:PolylineEdgeStyle.stroke>
+							<yjs:PolylineEdgeStyle.targetArrow>
+								<yjs:Arrow stroke="#FF000000" fill="{y:GraphMLReference 5}"/>
+							</yjs:PolylineEdgeStyle.targetArrow>
+						</yjs:PolylineEdgeStyle>
+					</data>
+				</edge>
+				<edge id="n0::e1" source="n0::n1" target="n0::n0" sourceport="p0" targetport="p1">
+					<data key="d9"><![CDATA[]]></data>
+					<data key="d12">
+						<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 7}">
+							<yjs:PolylineEdgeStyle.stroke>
+								<yjs:Stroke fill="{y:GraphMLReference 6}" miterLimit="1.45"/>
+							</yjs:PolylineEdgeStyle.stroke>
+							<yjs:PolylineEdgeStyle.targetArrow>
+								<yjs:Arrow stroke="#FF000000" fill="{y:GraphMLReference 6}"/>
+							</yjs:PolylineEdgeStyle.targetArrow>
+						</yjs:PolylineEdgeStyle>
+					</data>
+				</edge>
+				<edge id="n0::e2" source="n0::n3" target="n0::n2" sourceport="p1" targetport="p0">
+					<data key="d9"><![CDATA[]]></data>
+					<data key="d11">
+						<x:List>
+							<y:Bend Location="320,107.166015625"/>
+							<y:Bend Location="378.38864774302493,107.166015625"/>
+						</x:List>
+					</data>
+					<data key="d12">
+						<yjs:PolylineEdgeStyle sourceArrow="{y:GraphMLReference 7}">
+							<yjs:PolylineEdgeStyle.stroke>
+								<yjs:Stroke fill="{y:GraphMLReference 8}" miterLimit="1.45">
+									<yjs:Stroke.dashStyle>
+										<yjs:DashStyle dashes="6 2" offset="0"/>
+									</yjs:Stroke.dashStyle>
+								</yjs:Stroke>
+							</yjs:PolylineEdgeStyle.stroke>
+							<yjs:PolylineEdgeStyle.targetArrow>
+								<yjs:Arrow stroke="#FF000000" fill="{y:GraphMLReference 8}"/>
+							</yjs:PolylineEdgeStyle.targetArrow>
+						</yjs:PolylineEdgeStyle>
+					</data>
+				</edge>
+			</graph>
+		</node>
+	</graph>
+</graphml>
